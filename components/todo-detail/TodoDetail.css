@@ -1,0 +1,39 @@
+
+.todoDetail__list {
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  margin-bottom: 1rem;
+}
+
+.todoDetail__term {
+  flex: 1 1 25%;
+  display: flex;
+  align-items: center;
+  font-size: 1.375rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 1rem;
+}
+
+.todoDetail__definition {
+  flex: 1 1 75%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.todoDetail__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoDetail__back {
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #000;
+}
